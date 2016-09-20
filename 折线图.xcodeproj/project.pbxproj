@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F45BE801D66E965009D47E1 /* Chart_ValueBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE7F1D66E965009D47E1 /* Chart_ValueBaseView.m */; };
+		1F45BE831D66F4F3009D47E1 /* ChartValueContainerBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE821D66F4F3009D47E1 /* ChartValueContainerBaseView.m */; };
+		1F45BE901D66F690009D47E1 /* Chart_AxleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE861D66F690009D47E1 /* Chart_AxleView.m */; };
+		1F45BE911D66F690009D47E1 /* Chart_xAxleContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE881D66F690009D47E1 /* Chart_xAxleContainerView.m */; };
+		1F45BE921D66F690009D47E1 /* Chart_xAxleValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE8A1D66F690009D47E1 /* Chart_xAxleValueView.m */; };
+		1F45BE931D66F690009D47E1 /* ChartAxleContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE8C1D66F690009D47E1 /* ChartAxleContainerView.m */; };
+		1F45BE941D66F690009D47E1 /* ChartPinchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE8F1D66F690009D47E1 /* ChartPinchGestureRecognizer.m */; };
+		1F45BE971D66F7F8009D47E1 /* Chart_LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45BE961D66F7F8009D47E1 /* Chart_LineView.m */; };
+		1F499B581D65C61D002B35F6 /* Chart_BarValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F499B531D65C61D002B35F6 /* Chart_BarValueView.m */; };
+		1F499B591D65C61D002B35F6 /* Chart_BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F499B551D65C61D002B35F6 /* Chart_BarView.m */; };
+		1F499B5A1D65C61D002B35F6 /* ChartBarValueContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F499B571D65C61D002B35F6 /* ChartBarValueContainerView.m */; };
+		1F499B5E1D65C6A0002B35F6 /* Chart_LineValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F499B5D1D65C6A0002B35F6 /* Chart_LineValueView.m */; };
+		1F6141BD1D5864CD00AB9A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6141BC1D5864CD00AB9A11 /* main.m */; };
+		1F6141C01D5864CD00AB9A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6141BF1D5864CD00AB9A11 /* AppDelegate.m */; };
+		1F6141C31D5864CD00AB9A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6141C21D5864CD00AB9A11 /* ViewController.m */; };
+		1F6141C61D5864CD00AB9A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6141C41D5864CD00AB9A11 /* Main.storyboard */; };
+		1F6141C81D5864CD00AB9A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6141C71D5864CD00AB9A11 /* Assets.xcassets */; };
+		1F6141CB1D5864CD00AB9A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6141C91D5864CD00AB9A11 /* LaunchScreen.storyboard */; };
+		1F6141D61D5864CD00AB9A11 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6141D51D5864CD00AB9A11 /* ___Tests.m */; };
+		1F6141E11D5864CD00AB9A11 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6141E01D5864CD00AB9A11 /* ___UITests.m */; };
+		1FF4019A1D66A823002D9545 /* ChartLineValueContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF401991D66A823002D9545 /* ChartLineValueContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F6141D21D5864CD00AB9A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6141B01D5864CC00AB9A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6141B71D5864CC00AB9A11;
+			remoteInfo = "折线图";
+		};
+		1F6141DD1D5864CD00AB9A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6141B01D5864CC00AB9A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6141B71D5864CC00AB9A11;
+			remoteInfo = "折线图";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F45BE7E1D66E965009D47E1 /* Chart_ValueBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_ValueBaseView.h; sourceTree = "<group>"; };
+		1F45BE7F1D66E965009D47E1 /* Chart_ValueBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_ValueBaseView.m; sourceTree = "<group>"; };
+		1F45BE811D66F4F3009D47E1 /* ChartValueContainerBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartValueContainerBaseView.h; sourceTree = "<group>"; };
+		1F45BE821D66F4F3009D47E1 /* ChartValueContainerBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartValueContainerBaseView.m; sourceTree = "<group>"; };
+		1F45BE851D66F690009D47E1 /* Chart_AxleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_AxleView.h; sourceTree = "<group>"; };
+		1F45BE861D66F690009D47E1 /* Chart_AxleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_AxleView.m; sourceTree = "<group>"; };
+		1F45BE871D66F690009D47E1 /* Chart_xAxleContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_xAxleContainerView.h; sourceTree = "<group>"; };
+		1F45BE881D66F690009D47E1 /* Chart_xAxleContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_xAxleContainerView.m; sourceTree = "<group>"; };
+		1F45BE891D66F690009D47E1 /* Chart_xAxleValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_xAxleValueView.h; sourceTree = "<group>"; };
+		1F45BE8A1D66F690009D47E1 /* Chart_xAxleValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_xAxleValueView.m; sourceTree = "<group>"; };
+		1F45BE8B1D66F690009D47E1 /* ChartAxleContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartAxleContainerView.h; sourceTree = "<group>"; };
+		1F45BE8C1D66F690009D47E1 /* ChartAxleContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartAxleContainerView.m; sourceTree = "<group>"; };
+		1F45BE8D1D66F690009D47E1 /* ChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartConst.h; sourceTree = "<group>"; };
+		1F45BE8E1D66F690009D47E1 /* ChartPinchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartPinchGestureRecognizer.h; sourceTree = "<group>"; };
+		1F45BE8F1D66F690009D47E1 /* ChartPinchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartPinchGestureRecognizer.m; sourceTree = "<group>"; };
+		1F45BE951D66F7F8009D47E1 /* Chart_LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_LineView.h; sourceTree = "<group>"; };
+		1F45BE961D66F7F8009D47E1 /* Chart_LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_LineView.m; sourceTree = "<group>"; };
+		1F499B521D65C61D002B35F6 /* Chart_BarValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_BarValueView.h; sourceTree = "<group>"; };
+		1F499B531D65C61D002B35F6 /* Chart_BarValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_BarValueView.m; sourceTree = "<group>"; };
+		1F499B541D65C61D002B35F6 /* Chart_BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_BarView.h; sourceTree = "<group>"; };
+		1F499B551D65C61D002B35F6 /* Chart_BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_BarView.m; sourceTree = "<group>"; };
+		1F499B561D65C61D002B35F6 /* ChartBarValueContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBarValueContainerView.h; sourceTree = "<group>"; };
+		1F499B571D65C61D002B35F6 /* ChartBarValueContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBarValueContainerView.m; sourceTree = "<group>"; };
+		1F499B5C1D65C6A0002B35F6 /* Chart_LineValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart_LineValueView.h; sourceTree = "<group>"; };
+		1F499B5D1D65C6A0002B35F6 /* Chart_LineValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart_LineValueView.m; sourceTree = "<group>"; };
+		1F6141B81D5864CC00AB9A11 /* 折线图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "折线图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6141BC1D5864CD00AB9A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6141BE1D5864CD00AB9A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F6141BF1D5864CD00AB9A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F6141C11D5864CD00AB9A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F6141C21D5864CD00AB9A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F6141C51D5864CD00AB9A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F6141C71D5864CD00AB9A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F6141CA1D5864CD00AB9A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F6141CC1D5864CD00AB9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6141D11D5864CD00AB9A11 /* 折线图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "折线图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6141D51D5864CD00AB9A11 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		1F6141D71D5864CD00AB9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6141DC1D5864CD00AB9A11 /* 折线图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "折线图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6141E01D5864CD00AB9A11 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		1F6141E21D5864CD00AB9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF401981D66A823002D9545 /* ChartLineValueContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartLineValueContainerView.h; sourceTree = "<group>"; };
+		1FF401991D66A823002D9545 /* ChartLineValueContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartLineValueContainerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6141B51D5864CC00AB9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141CE1D5864CD00AB9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141D91D5864CD00AB9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F45BE7D1D66E948009D47E1 /* ChartBase */ = {
+			isa = PBXGroup;
+			children = (
+				1F45BE7E1D66E965009D47E1 /* Chart_ValueBaseView.h */,
+				1F45BE7F1D66E965009D47E1 /* Chart_ValueBaseView.m */,
+				1F45BE811D66F4F3009D47E1 /* ChartValueContainerBaseView.h */,
+				1F45BE821D66F4F3009D47E1 /* ChartValueContainerBaseView.m */,
+			);
+			path = ChartBase;
+			sourceTree = "<group>";
+		};
+		1F45BE841D66F690009D47E1 /* ChartPublic */ = {
+			isa = PBXGroup;
+			children = (
+				1F45BE851D66F690009D47E1 /* Chart_AxleView.h */,
+				1F45BE861D66F690009D47E1 /* Chart_AxleView.m */,
+				1F45BE871D66F690009D47E1 /* Chart_xAxleContainerView.h */,
+				1F45BE881D66F690009D47E1 /* Chart_xAxleContainerView.m */,
+				1F45BE891D66F690009D47E1 /* Chart_xAxleValueView.h */,
+				1F45BE8A1D66F690009D47E1 /* Chart_xAxleValueView.m */,
+				1F45BE8B1D66F690009D47E1 /* ChartAxleContainerView.h */,
+				1F45BE8C1D66F690009D47E1 /* ChartAxleContainerView.m */,
+				1F45BE8D1D66F690009D47E1 /* ChartConst.h */,
+				1F45BE8E1D66F690009D47E1 /* ChartPinchGestureRecognizer.h */,
+				1F45BE8F1D66F690009D47E1 /* ChartPinchGestureRecognizer.m */,
+			);
+			path = ChartPublic;
+			sourceTree = "<group>";
+		};
+		1F499B511D65C61D002B35F6 /* BarView */ = {
+			isa = PBXGroup;
+			children = (
+				1F499B521D65C61D002B35F6 /* Chart_BarValueView.h */,
+				1F499B531D65C61D002B35F6 /* Chart_BarValueView.m */,
+				1F499B541D65C61D002B35F6 /* Chart_BarView.h */,
+				1F499B551D65C61D002B35F6 /* Chart_BarView.m */,
+				1F499B561D65C61D002B35F6 /* ChartBarValueContainerView.h */,
+				1F499B571D65C61D002B35F6 /* ChartBarValueContainerView.m */,
+			);
+			path = BarView;
+			sourceTree = "<group>";
+		};
+		1F499B5B1D65C683002B35F6 /* LineView */ = {
+			isa = PBXGroup;
+			children = (
+				1F499B5C1D65C6A0002B35F6 /* Chart_LineValueView.h */,
+				1F499B5D1D65C6A0002B35F6 /* Chart_LineValueView.m */,
+				1FF401981D66A823002D9545 /* ChartLineValueContainerView.h */,
+				1FF401991D66A823002D9545 /* ChartLineValueContainerView.m */,
+				1F45BE951D66F7F8009D47E1 /* Chart_LineView.h */,
+				1F45BE961D66F7F8009D47E1 /* Chart_LineView.m */,
+			);
+			path = LineView;
+			sourceTree = "<group>";
+		};
+		1F6141AF1D5864CC00AB9A11 = {
+			isa = PBXGroup;
+			children = (
+				1F6141BA1D5864CD00AB9A11 /* 折线图 */,
+				1F6141D41D5864CD00AB9A11 /* 折线图Tests */,
+				1F6141DF1D5864CD00AB9A11 /* 折线图UITests */,
+				1F6141B91D5864CC00AB9A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6141B91D5864CC00AB9A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6141B81D5864CC00AB9A11 /* 折线图.app */,
+				1F6141D11D5864CD00AB9A11 /* 折线图Tests.xctest */,
+				1F6141DC1D5864CD00AB9A11 /* 折线图UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6141BA1D5864CD00AB9A11 /* 折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				1F45BE841D66F690009D47E1 /* ChartPublic */,
+				1F45BE7D1D66E948009D47E1 /* ChartBase */,
+				1F499B5B1D65C683002B35F6 /* LineView */,
+				1F499B511D65C61D002B35F6 /* BarView */,
+				1F6141BE1D5864CD00AB9A11 /* AppDelegate.h */,
+				1F6141BF1D5864CD00AB9A11 /* AppDelegate.m */,
+				1F6141C11D5864CD00AB9A11 /* ViewController.h */,
+				1F6141C21D5864CD00AB9A11 /* ViewController.m */,
+				1F6141C41D5864CD00AB9A11 /* Main.storyboard */,
+				1F6141C71D5864CD00AB9A11 /* Assets.xcassets */,
+				1F6141C91D5864CD00AB9A11 /* LaunchScreen.storyboard */,
+				1F6141CC1D5864CD00AB9A11 /* Info.plist */,
+				1F6141BB1D5864CD00AB9A11 /* Supporting Files */,
+			);
+			path = "折线图";
+			sourceTree = "<group>";
+		};
+		1F6141BB1D5864CD00AB9A11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6141BC1D5864CD00AB9A11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6141D41D5864CD00AB9A11 /* 折线图Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6141D51D5864CD00AB9A11 /* ___Tests.m */,
+				1F6141D71D5864CD00AB9A11 /* Info.plist */,
+			);
+			path = "折线图Tests";
+			sourceTree = "<group>";
+		};
+		1F6141DF1D5864CD00AB9A11 /* 折线图UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6141E01D5864CD00AB9A11 /* ___UITests.m */,
+				1F6141E21D5864CD00AB9A11 /* Info.plist */,
+			);
+			path = "折线图UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6141B71D5864CC00AB9A11 /* 折线图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6141E51D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图" */;
+			buildPhases = (
+				1F6141B41D5864CC00AB9A11 /* Sources */,
+				1F6141B51D5864CC00AB9A11 /* Frameworks */,
+				1F6141B61D5864CC00AB9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "折线图";
+			productName = "折线图";
+			productReference = 1F6141B81D5864CC00AB9A11 /* 折线图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6141D01D5864CD00AB9A11 /* 折线图Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6141E81D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图Tests" */;
+			buildPhases = (
+				1F6141CD1D5864CD00AB9A11 /* Sources */,
+				1F6141CE1D5864CD00AB9A11 /* Frameworks */,
+				1F6141CF1D5864CD00AB9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6141D31D5864CD00AB9A11 /* PBXTargetDependency */,
+			);
+			name = "折线图Tests";
+			productName = "折线图Tests";
+			productReference = 1F6141D11D5864CD00AB9A11 /* 折线图Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6141DB1D5864CD00AB9A11 /* 折线图UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6141EB1D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图UITests" */;
+			buildPhases = (
+				1F6141D81D5864CD00AB9A11 /* Sources */,
+				1F6141D91D5864CD00AB9A11 /* Frameworks */,
+				1F6141DA1D5864CD00AB9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6141DE1D5864CD00AB9A11 /* PBXTargetDependency */,
+			);
+			name = "折线图UITests";
+			productName = "折线图UITests";
+			productReference = 1F6141DC1D5864CD00AB9A11 /* 折线图UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6141B01D5864CC00AB9A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tongfang;
+				TargetAttributes = {
+					1F6141B71D5864CC00AB9A11 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1F6141D01D5864CD00AB9A11 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1F6141B71D5864CC00AB9A11;
+					};
+					1F6141DB1D5864CD00AB9A11 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1F6141B71D5864CC00AB9A11;
+					};
+				};
+			};
+			buildConfigurationList = 1F6141B31D5864CC00AB9A11 /* Build configuration list for PBXProject "折线图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6141AF1D5864CC00AB9A11;
+			productRefGroup = 1F6141B91D5864CC00AB9A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6141B71D5864CC00AB9A11 /* 折线图 */,
+				1F6141D01D5864CD00AB9A11 /* 折线图Tests */,
+				1F6141DB1D5864CD00AB9A11 /* 折线图UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6141B61D5864CC00AB9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6141CB1D5864CD00AB9A11 /* LaunchScreen.storyboard in Resources */,
+				1F6141C81D5864CD00AB9A11 /* Assets.xcassets in Resources */,
+				1F6141C61D5864CD00AB9A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141CF1D5864CD00AB9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141DA1D5864CD00AB9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6141B41D5864CC00AB9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F45BE831D66F4F3009D47E1 /* ChartValueContainerBaseView.m in Sources */,
+				1FF4019A1D66A823002D9545 /* ChartLineValueContainerView.m in Sources */,
+				1F6141C31D5864CD00AB9A11 /* ViewController.m in Sources */,
+				1F499B581D65C61D002B35F6 /* Chart_BarValueView.m in Sources */,
+				1F45BE801D66E965009D47E1 /* Chart_ValueBaseView.m in Sources */,
+				1F45BE931D66F690009D47E1 /* ChartAxleContainerView.m in Sources */,
+				1F499B591D65C61D002B35F6 /* Chart_BarView.m in Sources */,
+				1F45BE911D66F690009D47E1 /* Chart_xAxleContainerView.m in Sources */,
+				1F6141C01D5864CD00AB9A11 /* AppDelegate.m in Sources */,
+				1F499B5A1D65C61D002B35F6 /* ChartBarValueContainerView.m in Sources */,
+				1F499B5E1D65C6A0002B35F6 /* Chart_LineValueView.m in Sources */,
+				1F45BE921D66F690009D47E1 /* Chart_xAxleValueView.m in Sources */,
+				1F45BE901D66F690009D47E1 /* Chart_AxleView.m in Sources */,
+				1F45BE941D66F690009D47E1 /* ChartPinchGestureRecognizer.m in Sources */,
+				1F6141BD1D5864CD00AB9A11 /* main.m in Sources */,
+				1F45BE971D66F7F8009D47E1 /* Chart_LineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141CD1D5864CD00AB9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6141D61D5864CD00AB9A11 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6141D81D5864CD00AB9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6141E11D5864CD00AB9A11 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6141D31D5864CD00AB9A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6141B71D5864CC00AB9A11 /* 折线图 */;
+			targetProxy = 1F6141D21D5864CD00AB9A11 /* PBXContainerItemProxy */;
+		};
+		1F6141DE1D5864CD00AB9A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6141B71D5864CC00AB9A11 /* 折线图 */;
+			targetProxy = 1F6141DD1D5864CD00AB9A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6141C41D5864CD00AB9A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6141C51D5864CD00AB9A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6141C91D5864CD00AB9A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6141CA1D5864CD00AB9A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6141E31D5864CD00AB9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F6141E41D5864CD00AB9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6141E61D5864CD00AB9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "折线图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongfang.mmm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1F6141E71D5864CD00AB9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "折线图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongfang.mmm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1F6141E91D5864CD00AB9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "折线图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongfangdingxin.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/折线图.app/折线图";
+			};
+			name = Debug;
+		};
+		1F6141EA1D5864CD00AB9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "折线图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongfangdingxin.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/折线图.app/折线图";
+			};
+			name = Release;
+		};
+		1F6141EC1D5864CD00AB9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "折线图UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongfangdingxin.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "折线图";
+			};
+			name = Debug;
+		};
+		1F6141ED1D5864CD00AB9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "折线图UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tongfangdingxin.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "折线图";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6141B31D5864CC00AB9A11 /* Build configuration list for PBXProject "折线图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6141E31D5864CD00AB9A11 /* Debug */,
+				1F6141E41D5864CD00AB9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6141E51D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6141E61D5864CD00AB9A11 /* Debug */,
+				1F6141E71D5864CD00AB9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6141E81D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6141E91D5864CD00AB9A11 /* Debug */,
+				1F6141EA1D5864CD00AB9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6141EB1D5864CD00AB9A11 /* Build configuration list for PBXNativeTarget "折线图UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6141EC1D5864CD00AB9A11 /* Debug */,
+				1F6141ED1D5864CD00AB9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6141B01D5864CC00AB9A11 /* Project object */;
+}
